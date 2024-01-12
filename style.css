@@ -1,0 +1,93 @@
+* {
+    background-color: darkslategrey;
+}
+
+#chart {
+    border-radius: 25px;
+    background-color: honeydew ;
+    border-style: inset;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin: 50px;
+    color:red;
+    opacity: 1;
+    border-style: dashed;
+}
+
+#subheading {
+    text-align: center;
+    text-decoration: underline ;
+    text-shadow: 1px 1px red;
+}
+
+#katakanaeg {
+    list-style-position: inside;
+    text-align: center;
+    
+}
+
+#eglistheading { 
+    text-align: center;
+}
+
+a {
+    font-size: large;
+}
+
+
+.line1 {
+    color: red;
+}
+.line2 {
+    color: yellow;
+}
+.line3 {
+    color: pink;
+}
+.line4 {
+    color: green;
+}
+.line5 {
+     color: purple;
+}
+
+.gridcontainer {
+    display: grid;
+}
+
+.c1 {
+    grid-column: 1;
+    grid-row: 1;
+    border-style: dotted;
+    border-width: 0.5rem;
+    
+}
+
+.c2 {
+    grid-column: 2;
+    grid-row: 1;
+    border-style: ridge;
+    border-width: 1rem;
+    border-color: red;
+}
+
+.center {
+    text-align: center;
+    list-style-position: inside;
+    
+}
+
+#link1{
+    margin: auto;
+    text-align: ;
+}
+#link2 {
+    margin: auto;
+
+}
